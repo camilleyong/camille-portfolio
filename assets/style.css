@@ -1,0 +1,336 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body {
+    background-color: #FFFEF2;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+/* =========HEADER========== */
+
+header {
+    background-color: #D4CAA3;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    padding: 30px 0px 0px 0px;
+
+}
+
+h1 {
+    color: white;
+    padding: 10px 0px 0px 20px;
+    height: 50px;
+    width: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+header li {
+    display: inline;
+    padding: 0px 30px 0px 30px;
+    
+}
+
+/* ==========HERO========== */
+
+.banner {
+    background-image: url(../images/tropical-leaf-frame-brown-background_53876-98021.png);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.banner-text h2 {
+    color: #B9B9A0;
+    text-align: center;
+    position: relative;
+    top: 130px;
+    font-size: 50px;
+}
+
+/* =========ABOUT ME==========*/
+
+.sub-title {
+    
+    background-color: #D4CAA3;
+    width: 150px;
+    height: 405px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 43px;
+
+
+}
+
+h3 { 
+    width: 150px;
+    height: 70px;
+    background-color: #FFE4C4;
+    font-family: serif;
+    font-size: 25px;
+    
+
+}
+
+.bio {
+    background-color: #D4CAA3;
+    width: 80%;
+    height: 400px;
+    position: absolute;
+    display: flex;
+    left: 270px;
+    bottom: -48px;
+    box-shadow: 10px 10px 5px gray;
+
+}
+
+.me {
+    width: 255px;
+    height: 315px;
+    float: left;
+    margin-left: 20px;
+    padding: 30px 15px 15px 15px;
+}
+
+p{
+    text-align: center;
+    padding: 80px;
+    line-height: 30px;
+    position: relative;
+    display: flex;
+
+}
+
+/* =========WORK CARDS======= */
+
+.image:hover {
+    background-color: white;
+    opacity: 0.3;
+
+}
+
+.projects {
+    
+    background-color: #D4CAA3;
+    width: 150px;
+    height: 600px;
+    text-align: center;
+    color: white;
+    display: flex;
+    position: relative;
+    top: 70px;
+
+
+}
+
+.work {
+    background-color: #D4CAA3;
+    display: flex;
+    position: relative;
+    left: 270px;
+    width: 80%;
+    box-shadow: 10px 10px 5px gray;
+    
+
+}
+
+/* ============================== */
+
+h4 {
+    color: #B9B9A0;
+    background-color: white;
+    height: 35px;
+    position: relative;
+    /* top: -304px; */
+    font-size: 30px;
+
+}
+
+
+.card-1 {
+    position: relative;
+    left: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 996px;
+    height: 300px;
+    border: 2px black solid;   
+    margin: 20px;
+   
+}
+
+.card-1 img {
+    width: 996px;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+/* ============================== */
+
+.card-2 {
+    position: relative;
+    left: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    border: 2px black solid;   
+    margin: 20px;
+   
+}
+
+.card-2 img{
+    object-fit:cover;
+    width: 300px;
+    height: 300px;
+
+}
+
+/* ============================== */
+
+.card-3 {
+    position: relative;
+    left: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    border: 2px black solid;   
+    margin: 20px;
+   
+}
+
+.card-3 img{
+    object-fit:cover;
+    width: 300px;
+    height: 300px;
+
+}
+
+/* ============================== */
+
+.card-4 {
+    position: relative;
+    left: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    border: 2px black solid;   
+    margin: 20px;
+   
+}
+
+.card-4 img{
+    object-fit:cover;
+    width: 300px;
+    height: 300px;
+
+}
+
+/* ============================== */
+
+.card-5 {
+    position: relative;
+    left: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    border: 2px black solid;   
+    margin: 20px;
+   
+}
+
+.card-5 img{
+    object-fit:cover;
+    width: 300px;
+    height: 300px;
+
+}
+
+/* =========CONTACT======== */
+
+.contact {
+    background-color: #D4CAA3;
+    width: 150px;
+    height: 100px;
+    position: relative;
+    /* top: -600px; */
+}
+
+h5 {
+    background-color: #FFE4C4;
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: serif;
+   
+}
+
+.contact-me li {
+    text-decoration: none;
+    font-size: 25px;
+    display: inline;
+    color: white;
+    position: relative;
+    left: 270px;
+    top: 35px;
+    padding: 0px 70px;
+}
+
+.contact-me {
+    width: 80%;
+    height: 100px;
+    background-color: #D4CAA3;
+    position: relative;
+    left: 270px;
+    /* top: -697px; */
+    
+}
+
+/* =========FOOTER======== */
+
+footer {
+    font-size: 15px;
+    margin: 0%;
+    padding: 10px;
+    text-align: center;
+
+}
+
+/* ======================== */
+/* Tablets  */
+@media screen and (max-width: 992px) {
+    
+  }
+  
+  /* Large smartphones */
+@media screen and (max-width: 768px) {
+    
+  }
+  
+  /* Small smartphones */
+@media screen and (max-width: 576px) {
+    
+  }
