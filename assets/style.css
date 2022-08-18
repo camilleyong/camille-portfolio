@@ -203,21 +203,21 @@ h4 {
 
 /* ============================== */
 .card-header2{
-    position: absolute;
+    /* position: absolute; */
     left: 336px;
     bottom: -38rem;
 
 }
 
 .card-header3 {
-    position: absolute;
+    /* position: absolute; */
     bottom: -38rem;
 
 
 }
 
 .card-header4{
-    position: absolute;
+    /* position: absolute; */
     right: 200px;
     bottom: -38rem;
 
