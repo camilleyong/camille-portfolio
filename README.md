@@ -10,4 +10,4 @@ url (https://github.com/camilleyong/camille-portfolio)
 url (https://camilleyong.github.io/camille-portfolio/)
 
 ## Screenshot
-![ScreenShot] (./images/Screen Shot 2022-08-18 at 10.15.27 AM.png) 
+![ScreenShot](./images/portfolio.png) 
