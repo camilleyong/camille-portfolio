@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
+    /* box-sizing:border-box; */
     
 }
 
@@ -55,19 +56,22 @@ header li {
     width: 100%;
     height: 300px;
     position: relative;
+    display:flex;
 }
 
 .banner-text h2 {
     color: #B9B9A0;
-    text-align: center;
     position: relative;
     top: 130px;
     font-size: 50px;
+    left: 60%;
+
 }
 
 /* =========ABOUT ME==========*/
 
-.sub-title {
+
+#sub-title {
     
     background-color: #D4CAA3;
     width: 150px;
@@ -108,6 +112,7 @@ h3 {
     float: left;
     margin-left: 20px;
     padding: 30px 15px 15px 15px;
+    display: flex;
 }
 
 p{
@@ -127,16 +132,16 @@ p{
 
 }
 
-.projects {
+#projects {
     
     background-color: #D4CAA3;
     width: 150px;
-    height: 600px;
+    height: 760px;
     text-align: center;
     color: white;
     display: flex;
     position: relative;
-    top: 70px;
+    top: 90px;
 
 
 }
@@ -144,9 +149,11 @@ p{
 .work {
     background-color: #D4CAA3;
     display: flex;
-    position: relative;
+    position: absolute;
     left: 270px;
     width: 80%;
+    top: 56.3rem;
+    height: 760px;
     box-shadow: 10px 10px 5px gray;
     
 
@@ -158,8 +165,7 @@ h4 {
     color: #B9B9A0;
     background-color: white;
     height: 35px;
-    position: relative;
-    /* top: -304px; */
+    position: absolute;
     font-size: 30px;
 
 }
@@ -167,9 +173,8 @@ h4 {
 
 .card-1 {
     position: relative;
-    left: 10px;
-    display: inline-flex;
-    flex-wrap: wrap;
+    left: 85px;
+    display: flex;
     width: 996px;
     height: 300px;
     border: 2px black solid;   
@@ -181,16 +186,18 @@ h4 {
     width: 996px;
     height: 300px;
     object-fit: cover;
+  
+
 
 }
 
 /* ============================== */
 
 .card-2 {
-    position: relative;
-    left: 10px;
-    display: inline-flex;
-    flex-wrap: wrap;
+    position: absolute;
+    top: 370px;
+    left: 50px;
+    display: flex;
     width: 300px;
     height: 300px;
     border: 2px black solid;   
@@ -203,15 +210,16 @@ h4 {
     width: 300px;
     height: 300px;
 
+
 }
 
 /* ============================== */
 
 .card-3 {
-    position: relative;
-    left: 10px;
-    display: inline-flex;
-    flex-wrap: wrap;
+    position: absolute;
+    top: 370px;
+    left: 445px;
+    display: flex;
     width: 300px;
     height: 300px;
     border: 2px black solid;   
@@ -223,15 +231,17 @@ h4 {
     object-fit:cover;
     width: 300px;
     height: 300px;
+    
 
 }
 
 /* ============================== */
 
 .card-4 {
-    position: relative;
-    left: 10px;
-    display: inline-flex;
+    position: absolute;
+    top: 370px;
+    left: 830px;
+    display: flex;
     flex-wrap: wrap;
     width: 300px;
     height: 300px;
@@ -240,28 +250,7 @@ h4 {
    
 }
 
-.card-4 img{
-    object-fit:cover;
-    width: 300px;
-    height: 300px;
-
-}
-
-/* ============================== */
-
-.card-5 {
-    position: relative;
-    left: 10px;
-    display: inline-flex;
-    flex-wrap: wrap;
-    width: 300px;
-    height: 300px;
-    border: 2px black solid;   
-    margin: 20px;
-   
-}
-
-.card-5 img{
+.card-4 img {
     object-fit:cover;
     width: 300px;
     height: 300px;
@@ -270,12 +259,14 @@ h4 {
 
 /* =========CONTACT======== */
 
-.contact {
+#contact {
     background-color: #D4CAA3;
     width: 150px;
     height: 100px;
-    position: relative;
-    /* top: -600px; */
+    position: absolute;
+    top: 106.5rem;
+
+
 }
 
 h5 {
@@ -285,6 +276,7 @@ h5 {
     color: white;
     font-size: 25px;
     font-family: serif;
+
    
 }
 
@@ -303,9 +295,10 @@ h5 {
     width: 80%;
     height: 100px;
     background-color: #D4CAA3;
-    position: relative;
+    position: absolute;
     left: 270px;
-    /* top: -697px; */
+    top: 106.5rem;
+    box-shadow: 10px 10px 5px gray;
     
 }
 
@@ -316,21 +309,31 @@ footer {
     margin: 0%;
     padding: 10px;
     text-align: center;
+    position: absolute;
+    left: 44%;
+    top: 115rem;
+
+    
 
 }
 
 /* ======================== */
 /* Tablets  */
 @media screen and (max-width: 992px) {
+    header { 
+        display: block;
+        width: 50%;
+
+    }
+
+    .banner {
+        width: 50%;
+
+    }
     
-  }
+}
   
-  /* Large smartphones */
-@media screen and (max-width: 768px) {
-    
-  }
-  
-  /* Small smartphones */
-@media screen and (max-width: 576px) {
-    
+/* Small smartphones */
+@media screen and (max-width: 480px) {
+
   }
