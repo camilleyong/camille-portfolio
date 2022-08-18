@@ -27,7 +27,7 @@ header {
 
 h1 {
     color: white;
-    padding: 10px 0px 0px 20px;
+    /* padding: 10px 0px 0px 20px; */
     height: 50px;
     width: 300px;
     margin-bottom: 20px;
@@ -57,74 +57,84 @@ header li {
     height: 300px;
     position: relative;
     display:flex;
+    justify-content: center;
 }
 
 .banner-text h2 {
     color: #B9B9A0;
-    position: relative;
     top: 130px;
     font-size: 50px;
     left: 60%;
+    margin-top: 110px;
 
 }
 
 /* =========ABOUT ME==========*/
+.about-me {
+    display: flex;
+    padding: 10px 0px;
 
+}
 
 #sub-title {
     
     background-color: #D4CAA3;
-    width: 150px;
-    height: 405px;
+    width: 10%;
     text-align: center;
     color: white;
     position: relative;
-    top: 43px;
+    margin: 20px 30px 30px 0px;
+    display: flex;
 
 
 }
 
 h3 { 
-    width: 150px;
-    height: 70px;
+    width: 151px;
+    height: 55px;
     background-color: #FFE4C4;
     font-family: serif;
     font-size: 25px;
+    padding: 25px 0px 0px 0px;
+
     
 
 }
 
 .bio {
     background-color: #D4CAA3;
-    width: 80%;
-    height: 400px;
-    position: absolute;
+    width: 85%;
+    height: 478px;
     display: flex;
-    left: 270px;
-    bottom: -48px;
     box-shadow: 10px 10px 5px gray;
+    margin: 20px 0px;
 
 }
 
 .me {
-    width: 255px;
-    height: 315px;
-    float: left;
-    margin-left: 20px;
-    padding: 30px 15px 15px 15px;
+    margin: 40px;
     display: flex;
+    flex-direction: column;
+
 }
 
-p{
+p {
     text-align: center;
-    padding: 80px;
-    line-height: 30px;
-    position: relative;
-    display: flex;
+    line-height: 40px;
+    margin: 110px 20px 0px 0px;
+
 
 }
+
+
 
 /* =========WORK CARDS======= */
+
+.my-work {
+    display: flex;
+    padding: 10px 0px;
+
+}
 
 .image:hover {
     background-color: white;
@@ -135,13 +145,11 @@ p{
 #projects {
     
     background-color: #D4CAA3;
-    width: 150px;
-    height: 760px;
+    width: 10%;
     text-align: center;
     color: white;
     display: flex;
-    position: relative;
-    top: 90px;
+    margin-right: 30px;
 
 
 }
@@ -149,10 +157,7 @@ p{
 .work {
     background-color: #D4CAA3;
     display: flex;
-    position: absolute;
-    left: 270px;
-    width: 80%;
-    top: 56.3rem;
+    width: 85%;
     height: 760px;
     box-shadow: 10px 10px 5px gray;
     
@@ -175,33 +180,25 @@ h4 {
     position: relative;
     left: 85px;
     display: flex;
-    width: 996px;
-    height: 300px;
-    border: 2px black solid;   
-    margin: 20px;
+    width: 20%;
+    /* border: 2px black solid;    */
+
    
 }
 
 .card-1 img {
-    width: 996px;
     height: 300px;
     object-fit: cover;
   
-
-
 }
 
 /* ============================== */
 
 .card-2 {
     position: absolute;
-    top: 370px;
-    left: 50px;
     display: flex;
-    width: 300px;
     height: 300px;
-    border: 2px black solid;   
-    margin: 20px;
+    /* border: 2px black solid;    */
    
 }
 
@@ -216,14 +213,10 @@ h4 {
 /* ============================== */
 
 .card-3 {
-    position: absolute;
-    top: 370px;
-    left: 445px;
     display: flex;
     width: 300px;
     height: 300px;
     border: 2px black solid;   
-    margin: 20px;
    
 }
 
@@ -239,10 +232,7 @@ h4 {
 
 .card-4 {
     position: absolute;
-    top: 370px;
-    left: 830px;
     display: flex;
-    flex-wrap: wrap;
     width: 300px;
     height: 300px;
     border: 2px black solid;   
@@ -259,12 +249,15 @@ h4 {
 
 /* =========CONTACT======== */
 
+.links {
+    display: flex;
+    margin-right: 20px 0px;
+}
+
 #contact {
     background-color: #D4CAA3;
     width: 150px;
     height: 100px;
-    position: absolute;
-    top: 106.5rem;
 
 
 }
@@ -293,12 +286,8 @@ h5 {
 
 .contact-me {
     width: 80%;
-    height: 100px;
     background-color: #D4CAA3;
-    position: absolute;
-    left: 270px;
-    top: 106.5rem;
-    box-shadow: 10px 10px 5px gray;
+    /* box-shadow: 10px 10px 5px gray; */
     
 }
 
@@ -317,23 +306,6 @@ footer {
 
 }
 
-/* ======================== */
+/* ============MEDIA QUERY============== */
 /* Tablets  */
-@media screen and (max-width: 992px) {
-    header { 
-        display: block;
-        width: 50%;
-
-    }
-
-    .banner {
-        width: 50%;
-
-    }
-    
-}
-  
 /* Small smartphones */
-@media screen and (max-width: 480px) {
-
-  }
